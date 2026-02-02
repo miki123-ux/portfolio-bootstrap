@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,29 +12,119 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
   </head>
+
   <body>
-    <h1>Miguel</h1>
-    <button type="button" class="btn btn-warning">Warning</button>
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Miguel</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="inicio">
+      <div class="container bg-light">
+        <div class="row">
+          <div class="col-8">
+            <h1 class="">Ola! Son Miguel</h1>
+            <p>Desenvolvedor Web</p>
+            <p>
+              3 anos de experiencia en desenvolvemento de aplicacións web
+              modernas e responsive
+            </p>
+            <div>
+              <a class="btn btn-primary" href="#" role="button"
+                ><i class="bi bi-folder"></i> Ver Proxectos</a
+              >
+              <a class="btn btn-outline-primary" href="#" role="button"
+                ><i class="bi bi-envelope"></i> Contactar</a
+              >
+            </div>
+          </div>
+          <div class="col-4">Columna 2</div>
+        </div>
+      </div>
+    </section>
+    <section id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="col"><h3>As miñas habilidades</h3></div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">
+                  HTML5, CSS3, JavaScript, TypeScript, React,Bootstrap,Tailwind CSS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col"><div lass="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Node,js, Express ,Python, APis Rest ,MongoDB</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Git, GitHub,Docker, VS Code,Postman,Linux</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="proxectos"></section>
+
+    <section id="contacto"></section>
+    <i class="bi bi-controller"></i>
+
+    <footer>Footer</footer></html>
+    
   </body>
-  <div class="container">
-    <div class="row">
-      <div class="col-6">Columna 1</div>
-      <div class="col-5">Columna 2</div>
-      <div class="col-1">Columna 3</div>
-    </div>
-  </div class="row">
-  <div class="col">1</div>
-  <div class="col">2</div>
-  <div class="col">3</div>
-  <div class="col">4</div>
-  <div class="col">5</div>
-  <div class="col">6</div>
-  <div class="col">7</div>
-  <div class="col">8</div>
-  <div class="col">9</div>
-  <div class="col">10</div>
-  <div class="col">11</div>
-  <div class="col">12</div>
-  
 </html>
